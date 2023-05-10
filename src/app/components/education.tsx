@@ -4,24 +4,24 @@ const Education = () => {
     const education = [
         {
             degree: 'Bachelors',
-            institution: 'Tribhuvan University IOST, BSc. CSIT',
+            institution: 'Tribhuvan University, BCA',
             date: '2021 - Present'
         },
         {
             degree: 'Higher Secondary Education',
             institution: 'National Examination Board',
-            date: '2016 - 2018'
+            date: '2018 - 2020'
         },
         {
-            degree: 'School Leaving Certificate',
+            degree: 'SEE',
             institution: 'National Examination Board',
-            date: '2015'
+            date: '2017'
         }
     ]
     return (
         <>
             <div className="flex flex-col gap-4">
-                <h2 className="font-medium text-2xl">Education</h2>
+                <h2 className="text-2xl font-medium">Education</h2>
                 <ul className="list-inside">
                     {
                         education.map((degree, index) => (

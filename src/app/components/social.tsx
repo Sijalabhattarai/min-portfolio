@@ -4,40 +4,31 @@ const Social = () => {
     const social = [
         {
             name: 'Github',
-            link: 'https://github.com/bhaskarrijal'
-        },
-        {
-            name: 'Twitter',
-            link: 'https://twitter.com/bhaskarijal',
+            link: 'http://www.github.com/sijalabhattarai'
         },
         {
             name: 'LinkedIn',
-            link: 'https://linkedin.com/in/bhaskarrijal',
+            link: 'https://www.linkedin.com/in/sijala-bhattarai-92bb11230/',
         },
         {
             name: 'Instagram',
-            link: 'https://instagram.com/bhaskarrijal',
+            link: 'http://www.instagram.com/sijala_bhattarai',
         },
         {
             name: 'Facebook',
-            link: 'https://facebook.com/bhaskarrijal',
+            link: 'https://www.facebook.com/Sijala-Arts-113562270486212',
         },
     ]
 
     return (
         <>
             <div className="flex flex-col gap-4">
-                <h2 className="font-medium text-2xl">Social</h2>
+                <h2 className="text-2xl font-medium">Social</h2>
                 <ul className="list-inside">
-                    <li>
-                        <a href='https://bhaskarrijal.me/blog' target='_blank' className='text-primary underline italic'>
-                            <span>Blog</span>
-                        </a>
-                    </li>
                     {
                         social.map((social, index) => (
                             <li key={index}>
-                                <a href={social.link} target='_blank' className='text-primary underline italic'>
+                                <a href={social.link} target='_blank' className='italic underline text-primary'>
                                     <span>{social.link}</span>
                                 </a>
                             </li>
