@@ -49,7 +49,7 @@ const Page = () => {
 
 			<Education />
 
-			<Projects />
+			{/* <Projects /> */}
 
 			{/* <Inprogress /> */}
 
