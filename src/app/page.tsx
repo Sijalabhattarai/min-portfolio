@@ -5,7 +5,7 @@ import Projects from './components/projects';
 import Inprogress from './components/inprogress';
 import Skills from './components/skills';
 import Social from './components/social';
-import Avatar from '../../assets/butter.png';
+import Avatar from '../../assets/dp.jpg';
 
 const Page = () => {
 
@@ -29,7 +29,7 @@ const Page = () => {
 				<Image
 					src={Avatar}
 					alt="Sijala Bhattarai"
-					className="object-cover w-auto h-64 md:w-32 md:h-auto grayscale ring-2"
+					className="object-cover w-auto h-64 md:w-48 md:h-auto grayscale ring-2"
 					width={300}
 					height={300}
 					placeholder='blur'
